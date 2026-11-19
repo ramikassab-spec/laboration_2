@@ -3,6 +3,14 @@ body {
     color: #1f2937;
     line-height: 1.6;
     font-size: 1rem;
+    font-family: "inter", sans-serif;
+    max-width: 70rem;
+    margin: auto;
+    padding: 2rem;
+    margin: 0;
+}
+
+main {
     max-width: 70rem;
     margin: auto;
     padding: 2rem;
@@ -13,6 +21,7 @@ body {
     color: #ffffff;
     text-align: center;
     padding: 2rem 1rem;
+    border-radius: 0.5rem;
  }
 
  h1 {
@@ -36,3 +45,14 @@ body {
     border-radius: 0.5rem;
     margin: 2rem 0;
  }
+
+ img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+ }
+
+ p {
+    max-width: 65ch;
+ }
+
