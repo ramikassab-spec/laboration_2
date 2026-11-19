@@ -6,4 +6,33 @@ body {
     max-width: 70rem;
     margin: auto;
     padding: 2rem;
-    
+}
+
+ header {
+    background-color: #16324f;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 1rem;
+ }
+
+ h1 {
+    font-size: 2.5rem;
+ }
+
+ h2 {
+    font-size: 1.75rem;
+    color: #16324f;
+ }
+
+ .ingress {
+    font-size: 1.25rem;
+    font-weight: 600;
+ }
+
+ .citat {
+    background-color: #e8f1f8;
+    padding: 1.5rem;
+    border-left: 4px solid #16324f;
+    border-radius: 0.5rem;
+    margin: 2rem 0;
+ }
