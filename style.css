@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     background-color: #f8fafc;
     color: #1f2937;
@@ -18,7 +21,7 @@ main {
     color: #ffffff;
     text-align: center;
     padding: 2rem 1rem;
-    border-radius: 0.5rem;
+   
  }
 
  h1 {
@@ -44,6 +47,7 @@ main {
  }
 
  img {
+    display: block;
     max-width: 100%;
     height: auto;
     border-radius: 0.5rem;
@@ -61,4 +65,26 @@ main {
 
  li {
     margin-bottom: 0.5rem;
+ }
+
+ .sidfot {
+    background-color: #16324f;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 1rem;
+ }
+ .sidfot p{
+    margin: 0 auto;
+ }
+
+ @media (max-width: 600px) {
+    h1 {
+        font-size: 1.7rem;
+    }
+    main {
+        padding: 1rem;
+    }
+    .citat {
+        padding: 1rem;
+    }
  }
