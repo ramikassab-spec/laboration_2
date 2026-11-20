@@ -87,7 +87,13 @@ main {
     .citat {
         padding: 1rem;
     }
- }
- .sidfot {
+
+    .sidfot {
     padding: 1.5rem 1rem;
- }
+   }
+
+   .sidfot {
+    padding: 1.5rem 1rem;
+    }
+}
+
